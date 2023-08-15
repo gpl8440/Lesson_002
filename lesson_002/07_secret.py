@@ -27,4 +27,4 @@ mes2 = secret_message[1][9:13]
 mes3 = secret_message[2][5:15:2]
 mes4 = secret_message[3][12:6:-1]
 mes5 = secret_message[4][20:15:-1]
-print(mes1, mes2, mes3, mes4, mes5)
+print(mes1,mes2, mes3, mes4, mes5)
