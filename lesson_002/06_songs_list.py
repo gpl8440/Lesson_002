@@ -20,7 +20,12 @@ violator_songs_list = [
 # Обратите внимание, что делать много вычислений внутри print() - плохой стиль.
 # Лучше заранее вычислить необходимое, а затем в print(xxx, yyy, zzz)
 
-# TODO здесь ваш код
+sum_duration_time = 0
+sum_duration_time += violator_songs_list[3][1]
+sum_duration_time += violator_songs_list[5][1]
+sum_duration_time += violator_songs_list[8][1]
+
+print('Total duration time is', round(sum_duration_time, 2), 'minutes')
 
 # Есть словарь песен группы Depeche Mode
 violator_songs_dict = {
@@ -38,4 +43,9 @@ violator_songs_dict = {
 # распечатайте общее время звучания трех песен: 'Sweetest Perfection', 'Policy of Truth' и 'Blue Dress'
 #   А другие три песни звучат ХХХ минут
 
-# TODO здесь ваш код
+sum_duration_time = 0
+sum_duration_time += violator_songs_dict ['Sweetest Perfection']
+sum_duration_time += violator_songs_dict ['Policy of Truth']
+sum_duration_time += violator_songs_dict ['Blue Dress']
+
+print('Another 3 songs total duration time is', round(sum_duration_time, 2), 'minutes')
